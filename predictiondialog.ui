@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>predictionDialog</class>
+ <widget class="QDialog" name="predictionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="team1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Arsenal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aston Villa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brentford</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brighton &amp; Hove Albion</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="team2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Arsenal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aston Villa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brentford</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brighton &amp; Hove Albion</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose teams to compare</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
